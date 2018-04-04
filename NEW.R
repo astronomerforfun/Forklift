@@ -7,7 +7,6 @@ library(tidyr)
 library(ggthemes)
 library(stringr)
 
-str(data1)
 
 options(scipen=999) #Add this code for removal of sci notation
 datacomb <- read_csv("version2.csv") #Upload File
